@@ -47,7 +47,7 @@ label span {
     font-weight: 700;
 }
 
-.section-inputs label input {
+.section-inputs label input, .comentarios {
     width: 80%;
     background-color: #f3f3f4;
     border: none;
@@ -69,6 +69,18 @@ label input {
 }
 
 label input:hover {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px khaki;
+}
+
+.comentarios:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px khaki;
+}
+
+.comentarios:focus{
     background-color: white;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px khaki;
