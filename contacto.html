@@ -8,112 +8,92 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-        <div class="izquierda-header"><img src="" alt="logo-gimnasio"></div>
-        <div class="derecha-header">
-            <a href="">Boton1</a>
-            <a href="">Boton2</a>
-            <a href="">Boton3</a>
-            <a href="">Boton4</a>
-        </div>
-    </header>
-    <div class="bienvenida">
-        <div class="texto">
-            <h1>Bienvenido/a</h1>
-            <p>Aca va a haber texto fulero para decorar la pagina y alardear</p>
-        </div>
-        <div class="imagen-bienvenida"><img src="https://static.vecteezy.com/system/resources/previews/002/607/268/non_2x/people-exercising-at-gym-vector.jpg" alt="gente-gym" width="100%" height="100%"></div>
-    </div>
-    <div class="actividades">
-        <div class="imagen-actividades"><img src="https://static.vecteezy.com/system/resources/previews/002/608/645/non_2x/people-doing-fitness-workout-vector.jpg" alt="actividades-varias" width="100%" height="100%"></div>
-        <div class="texto-actividades">
-            <h2><a href="#">Actividades</a></h2>
-            <p>Aca va el texto que hable de actividades</p>
-        </div>
-    </div>
-    <div class="tienda">
-        <div class="texto-tienda">
-            <h2><a href="#">Tienda</a></h2>
-            <p>Aca va el texto que hable de la tienda</p>
-        </div>
-        <div class="imagen-actividades"><img src="https://www.suplementosnutricionalessalta.com.ar/public/images/fotos/home-bienvenida.jpg" alt="img-tienda" width="100%" height="100%"></div>
-    </div>
+    <div class="imagenfondo">
     <div class="contactanos">
-        <div class="imagen-contacto"><img src="https://media.istockphoto.com/id/1168945108/es/foto/imagen-de-primer-plano-de-las-manos-masculinas-utilizando-el-tel%C3%A9fono-inteligente-con-el.jpg?s=612x612&w=0&k=20&c=fUyZOsoJV1C6E92_hMwzUL_CtjEpSRwJwDOzTCuvYrc=" 
-            alt="img-contacto" width="100%" height="100%"></div>
+        <!--<div class="imagen-contacto"><img src="https://media.istockphoto.com/id/1168945108/es/foto/imagen-de-primer-plano-de-las-manos-masculinas-utilizando-el-tel%C3%A9fono-inteligente-con-el.jpg?s=612x612&w=0&k=20&c=fUyZOsoJV1C6E92_hMwzUL_CtjEpSRwJwDOzTCuvYrc=" 
+            alt="img-contacto" width="100%" height="100%"></div>-->
         <div class="texto-contacto">
             <h2><a href="#">Contacto</a></h2>
-            <p>Si necesitas mas informacion completa el siguiente formulario</p>
-            <!--Flor-->
-            <div class="container">
-                <h3>Contactanos</h3>
+        </div>
+            <!--Aca arranca Flor-->
+            <div class="contenedor">
+                    <div class="cajadepreguntas">
+                        <h3 class="preguntas">Preguntas frecuentes</h3>
+                            <div class="desplegable">
+                                    <button class="boton">¿Como puedo asociarme?</button>
+                                    <div class="links">
+                                        <a href="#">Mandando un mensaje a traves de Whatsapp</a>
+                                    </div>
+                                    </div>
+                                        <br>
+                                    <div class="desplegable1">
+                                    <button class="boton">Apto Medico</button>
+                                    <div class="links">
+                                        <a href="#">Para entrenar en nuestras sedes es necesario que aceptes 
+                                            y firmes la declaración jurada de aptitud física, 
+                                            requisito que rige para la totalidad de las sedes. 
+                                            Si tenés alguna duda envía tu consulta a</a>
+                                    </div>
+                                </div>
+                                    <br>
+                                <div class="desplegable2">
+                                    <button class="boton">¿Que membresias me ofrecen?</button>
+                                    <div class="links">
+                                        <a href="#">Ofrecemos diferentes membresías para cada uno de sus socios. 
+                                            Conocé cuál es la que más se adapta a vos:
+                                            Black, Platino, Classic, Solo Club,</a>
+                                    </div>
+                                </div>
+                                    <br>
+                                <div class="desplegable3">
+                                    <button class="boton">¿Como realizo un reclamo?</button>
+                                    <div class="links">
+                                        <a href="#">Para realizar un reclamo, completá el formulario de contacto que se encuentra en esta página
+                                            y un asesor se comunicará con vos.</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    
+
+
+                    <div class="container">
+                        <p>Si necesitas mas informacion completa el siguiente formulario</p>
+                        <h3>Contactanos</h3>
             <div class="separater">
                     <hr>
                 </div>
-            <form id="formulario" action="" method="">
+            
+                <form id="formulario" action="" method="">
                 <div class="section-inputs"> 
                     <label for="name">
-                        <span>Nombre</span>
-                        <input id="name" type="text" />
+                        <input id="name" type="text" class="icono-placeholder1" placeholder="Nombre">
                     </label>
 
                 <label for="email">
-                        <span>E-mail</span>
-                        <input id="email" type="email">
+                        <input id="email" type="email" class="icono-placeholder2" placeholder="Email">
                     </label>
                 </div>
                 
                 <label for="comentarios">
-                    <span>Comentarios</span>
-                    <textarea class="comentarios" id="message" name="message" cols="30" rows="10"></textarea>
+                    <textarea class="comentarios" id="message" name="message" cols="30" rows="10" placeholder="Comentarios.."></textarea>
                 </label>
 
+                <label for="enviar">
                     <button type="submit" class="submit-btn">Enviar</button>
+                </label>
+                    
                 </form>
-        
-                <div class="cajadepreguntas">
-                    <h3 class="preguntas">Preguntas frecuentes</h3>
-                        <div class="desplegable">
-                                <button class="boton">¿Como puedo asociarme?</button>
-                                <div class="links">
-                                    <a href="#">Mandando un mensaje a traves de Whatsapp</a>
-                                </div>
-                                </div>
-                                    <br>
-                                <div class="desplegable1">
-                                <button class="boton">Apto Medico</button>
-                                <div class="links">
-                                    <a href="#">Para entrenar en nuestras sedes es necesario que aceptes 
-                                        y firmes la declaración jurada de aptitud física, 
-                                        requisito que rige para la totalidad de las sedes. 
-                                        Si tenés alguna duda envía tu consulta a</a>
-                                </div>
-                            </div>
-                                <br>
-                            <div class="desplegable2">
-                                <button class="boton">¿Que membresias me ofrecen?</button>
-                                <div class="links">
-                                    <a href="#">Ofrecemos diferentes membresías para cada uno de sus socios. 
-                                        Conocé cuál es la que más se adapta a vos:
-                                        Black, Platino, Classic, Solo Club,</a>
-                                </div>
-                            </div>
-                                <br>
-                            <div class="desplegable3">
-                                <button class="boton">¿Como realizo un reclamo?</button>
-                                <div class="links">
-                                    <a href="#">Para realizar un reclamo, completá el formulario de contacto que se encuentra en esta página
-                                        y un asesor se comunicará con vos.</a>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+            </div>
+        </div>
         <!--Flor-->
-        
+    
     </div>
-</div></div></div>
-    <footer>
+
+</div></div>
+    
+
+<footer>
         <div class="copyright">
             <p>© 2023 Gimnasios J-2MF. All rights reserved.</p>
         </div>
@@ -123,6 +103,7 @@
             <a href="#"><img src="https://icongr.am/entypo/youtube-with-circle.svg?size=38&color=ffffff" alt="youtube"></a>
             <a href="#"><img src="https://icongr.am/entypo/twitter-with-circle.svg?size=38&color=ffffff" alt="twitter"></a>
         </div>
+
     </footer>
 </body>
 </html>

@@ -1,12 +1,90 @@
-.container {
-    margin: auto;
+.imagenfondo {
+    background-color: crimson;
+}
+
+.contenedor {
     display: flex;
+    justify-content: space-between;
+}
+
+/*Div de preguntas frecuentes*/
+.preguntas {
+    font-size: 18,5px;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cajadepreguntas{
+    background-color: khaki;
+    display:inline-block;
+    position: relative;
+    margin: 10px 0px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 18.5px;
+    border-radius: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 13px;
+
+}
+
+.links {
+    background-color: rgb(114, 85, 85);
+    width: 250px;
+    display: none;
+    border-radius: 10px;
+}
+
+.links a:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.desplegable:hover .links, .desplegable1:hover .links, .desplegable2:hover .links, .desplegable3:hover .links{
+    display: block;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+/*Div de Formulario de Contacto*/
+.container {
+    background-color: khaki;
+    display:inline-block;
+    position: relative;
+    margin: 10px 0px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    /*display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    width: 450px;
+    width: 450px;*/
+    
 }
+
 .separater {
     display: flex;
     width: 100%;
@@ -57,7 +135,7 @@ label span {
     font-size: 14pt;
 }
 
-label input {
+label input, .comentarios{
     width: 90%;
     background-color: #f3f3f4;
     border: none;
@@ -85,6 +163,11 @@ label input:hover {
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px khaki;
 }
+.comentarios{
+    resize:none;
+    width: 400px;
+    height: 100px;
+}
 
 label input:focus {
     background-color: white;
@@ -93,7 +176,7 @@ label input:focus {
 }
 
 .submit-btn {
-    background-color: khaki;
+    background-color: rgb(109, 99, 12);
     color: black;
     font-weight: 500;
     font-size: 14pt;
@@ -108,61 +191,4 @@ label input:focus {
     opacity: 0.75;
 }
 
-.preguntas {
-    font-size: 18,5px;
-    padding: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.cajadepreguntas{
-    background-color: khaki;
-    display: inline-block;
-    position: relative;
-    margin: 10px 0px;
-    width: 450px;
-    height: 450px;
-    padding: 15px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    border-radius: 10px;
-}
-
-
-.boton{
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 16px;
-    font-size: 18.5px;
-    border-radius: 10px;
-}
-
-.links a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 13px;
-
-}
-
-.links {
-    background-color: rgb(114, 85, 85);
-    width: 250px;
-    display: none;
-    border-radius: 10px;
-}
-
-.links a:hover{
-    background-color: grey;
-    border-radius: 10px;
-}
-
-.desplegable:hover .links, .desplegable1:hover .links, .desplegable2:hover .links, .desplegable3:hover .links{
-    display: block;
-}
-
-.clearfix{
-    clear: both;
-    float: none;
-}
-
+/*Iconos*/
