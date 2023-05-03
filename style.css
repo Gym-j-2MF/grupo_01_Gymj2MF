@@ -85,6 +85,12 @@
     
 }
 
+.container i{
+    position: absolute;
+    margin-left: 120px;
+    padding-top: 7px;
+}
+
 .separater {
     display: flex;
     width: 100%;
@@ -152,6 +158,13 @@ label input:hover {
     box-shadow: 0 0 4px khaki;
 }
 
+/*Iconos*/
+.section-inputs i{
+    position: absolute;
+    margin-left: 190px;
+    padding-top: 10px;
+    }
+
 .comentarios:hover{
     background-color: white;
     border: solid 1px #f3f3f4;
@@ -191,4 +204,3 @@ label input:focus {
     opacity: 0.75;
 }
 
-/*Iconos*/
