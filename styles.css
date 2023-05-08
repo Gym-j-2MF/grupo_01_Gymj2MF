@@ -201,3 +201,26 @@ footer{
     justify-content: center;
     gap: 20px;
 }
+.boton-tienda {
+    text-decoration:none;
+    font-weight:100;
+    font-size:14px;
+    color:black;
+   
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:#005BBB;
+    font-weight: bold;
+    float: left;
+    }
+    .t1{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+   
