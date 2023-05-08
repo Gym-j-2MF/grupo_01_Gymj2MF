@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    height: 5em;
+    align-items: center;
+    position: fixed;
+    left: 10%
+}
+
+.izquierda-header{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.derecha-header{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.derecha-header a{
+    background-color: rgb(255, 0, 234);
+    height: 3em;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1cm;
+    text-decoration: none;
+    color: white;
+}
+
+.bienvenida{
+    width: 80%;
+    background-color: blueviolet;
+    margin: 0 auto;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    padding-left: 5%;
+}
+
+.imagen-bienvenida{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.actividades{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 25em;
+    background-color: cadetblue;
+}
+
+.texto-actividades{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.texto-actividades h2{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-actividades p{
+    text-align: justify;
+    color: white;
+    margin-left: 10px;
+}
+
+.texto-actividades a{
+    text-decoration: none;
+    color: white;
+}
+
+.imagen-actividades{
+    width: 40%;
+}
+
+.tienda{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 25em;
+    background-color: rgb(159, 160, 95);
+}
+
+.texto-tienda{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.texto-tienda h2{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-tienda p{
+    text-align: justify;
+    color: white;
+    margin-left: 10px;
+}
+
+.texto-tienda a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactanos{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 25em;
+    background-color: rgb(187, 24, 146);
+}
+
+.imagen-contacto{
+    
+    width: 40%;
+}
+
+.texto-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.texto-contacto h2{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-contacto p{
+    text-align: justify;
+    color: white;
+    margin-left: 10px;
+}
+
+.texto-contacto a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 90px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    width: 50%;
+    justify-content:center;
+    color: aliceblue;
+}
+
+.socials{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
