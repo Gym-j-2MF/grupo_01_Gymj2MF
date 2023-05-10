@@ -11,13 +11,13 @@ body{
 
 header{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: black;
     height: 5em;
     align-items: center;
     position: fixed;
-    left: 10%
+   /* left: 10%*/
 }
 
 .izquierda-header{
@@ -44,7 +44,7 @@ header{
 }
 
 .bienvenida{
-    width: 80%;
+    width: 100%;
     background-color: blueviolet;
     margin: 0 auto;
     height: 40em;
@@ -68,7 +68,7 @@ header{
 }
 
 .actividades{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     height: 25em;
@@ -106,7 +106,7 @@ header{
 }
 
 .tienda{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     height: 25em;
@@ -140,7 +140,7 @@ header{
 }
 
 .contactanos{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     height: 25em;
@@ -181,7 +181,7 @@ header{
 footer{
     display: flex;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     height: 90px;
     background-color: black;
     justify-content: center;
@@ -223,4 +223,49 @@ footer{
         height: 50px;
         margin-bottom: 50px;
     }
-   
+    #items{
+        position: relative;
+        flex: auto;
+        width: 50%;
+        background-color:white;
+       /* top: 0px;*/
+        padding-top:120px;
+       /* padding-bottom:200px;*/
+        
+       }
+       #car{
+        position: relative;
+        flex: auto;
+        width: 50%;
+        background-color:white;
+       /* top: 0px;*/
+        padding-top:120px;
+        /*padding-bottom:200px;*/
+        
+       }
+      .colorete{
+        position: absolute;
+       
+        flex: auto;
+        width: 100%;
+        background-color:white;
+        height: 550px;
+        margin-bottom:100px;
+       }
+    .pie{
+    position: absolute;
+    margin-top:100px;
+    width: 100%;
+    }
+    .header_ajuste{
+        
+            position: fixed;
+            width: 100%;
+            height: auto;
+            top: 0%;
+            left: 0%;
+            padding: 1%;
+            
+            z-index: 99999;
+         
+    }

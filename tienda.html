@@ -19,8 +19,31 @@
     <title>Gimnasio</title>
     <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <section class="border-bottom title-section">
+    <body class="colorete">
+        <header class="header_ajuste">
+            <div class="izquierda-header"><img src="./views/static/img/logo2023.png" alt="logo-gimnasio" style="max-width: 80px;"></div>
+            <div class="derecha-header">
+                <a  href="index.html">Home</a>
+                           
+                               
+                            
+                <a  href="nutricion.html" id="nutricion">Nutricion</a>
+         
+            
+                <a  href="horarios.html" id="horarios">Horarios</a>
+           
+                <a  href="actividades.html" id="actividades">Actividades</a>
+         
+       
+           
+            
+                <a  href="tienda.html" id="compras2">tienda</a>
+                <a  href="contacto.html" id="contacto">Contacto</a>
+         
+            </div>
+        </header>
+    
+        <!--<section class="border-bottom title-section">
             <div class="container">
                 <div class="row row-cols-md-2 row-cols-1">
                     <div class="col">
@@ -38,12 +61,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
+        
 
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        <script>
+       <script>
             
             document.addEventListener('DOMContentLoaded', () => {
               // Variables
@@ -257,12 +279,17 @@
         </script>
     </head>
     <body>
-        <div class="container">
+        <div class="ajuste container">
+            <br> <br> <br> <br> <br> 
+            <h2>
+                TIENDA
+            </h2>
             <div class="row">
+                
                 <!-- Elementos generados a partir del JSON -->
                 <main id="items" class="col-sm-8 row"></main>
                 <!-- Carrito -->
-                <aside class="col-sm-4">
+                <aside id="car" class=" col-sm-4">
                 <form  name="form" method="post" >
                     <h2>Carrito</h2>
                     <!-- Elementos del carrito -->
@@ -279,7 +306,7 @@
     function pasatotal(){
         
         
-    window.open('pagos','width=240,height=100');
+    window.open('pagos','width=240,height=200');
     }
     </SCRIPT>
                
@@ -298,9 +325,9 @@
     <script>
     
     </script>
-
-
-        <footer>
+</body>
+<body>
+        <footer class="pie">
             <div class="copyright">
                 <p>© 2023 Gimnasios J-2MF. All rights reserved.</p>
             </div>
