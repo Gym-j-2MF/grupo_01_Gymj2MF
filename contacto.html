@@ -79,21 +79,21 @@
                     <hr>
                 </div>
                 <h4>Si necesitas mas informacion completa el siguiente formulario</h4>
-                <form action="" class="formulario" id="formulario">
+                <form action="" class="formulario" id="formulario" method="POST">
                 <div class="section-inputs"> 
                     <label for="name">
                         <i class="fa-solid fa-user"></i>
-                        <input id="name" type="text" class="icono-placeholder1" placeholder="Nombre">
+                        <input id="name" aria-describedby="" type="text" class="icono-placeholder1" placeholder="Nombre">
                     </label>
 
                     <label for="email">
                         <i class="fa-solid fa-envelope"></i>
-                        <input id="email" type="email" class="icono-placeholder2" placeholder="Email">
+                        <input id="email" aria-describedby="" type="email" class="icono-placeholder2" placeholder="Email">
                     </label>
                 </div>
                 
                 <label for="comentarios">
-                    <textarea class="comentarios" id="message" name="message" cols="30" rows="10" placeholder="Comentarios.."></textarea>
+                    <textarea class="comentarios" aria-describedby="" id="message" name="message" cols="30" rows="10" placeholder="Comentarios.."></textarea>
                 </label>
 
                 <label for="enviar">
@@ -109,6 +109,7 @@
 
 </div></div>
     
+<script src="/js/validar.js"></script>
 
 <footer>
         <div class="copyright">
@@ -120,6 +121,8 @@
             <a href="#"><img src="https://icongr.am/entypo/youtube-with-circle.svg?size=38&color=ffffff" alt="youtube"></a>
             <a href="#"><img src="https://icongr.am/entypo/twitter-with-circle.svg?size=38&color=ffffff" alt="twitter"></a>
         </div>
+        
+        
 
     </footer>
     <script src="https://kit.fontawesome.com/baf5537738.js" crossorigin="anonymous"></script>

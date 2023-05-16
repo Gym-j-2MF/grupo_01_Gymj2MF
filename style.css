@@ -225,10 +225,11 @@ label input:hover {
 /*Iconos*/
 .section-inputs i{
     position: absolute;
-    margin-left: 190px;
+    margin-left: 170px;
     padding-top: 10px;
     }
 
+/*Caja de comentarios*/
 .comentarios:hover{
     background-color: white;
     border: solid 1px #f3f3f4;
