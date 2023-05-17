@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    height: 5em;
+    align-items: center;
+    position: fixed;
+    /*left: 10%*/
+}
+
+.izquierda-header{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.derecha-header{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.derecha-header a{
+    background-color: rgb(255, 0, 234);
+    height: 3em;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1cm;
+    text-decoration: none;
+    color: white;
+}
+
+.inicio {
+    /*background-color: aqua;*/
+    width: 100%;
+    margin: 15px;
+}
+
+.fitness, .clases, .outdoor, .natacion, .kids {
+    /*background-color: aqua;*/
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto1, .foto, .texto2 {
+    width: 30%;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.texto1, .texto2 {
+    /*background-color:blueviolet;*/
+    padding: 30px 30px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p { 
+    text-align:justify;
+}
+
+ul {
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    width: 50%;
+    justify-content:center;
+    color: aliceblue;
+}
+
+.socials{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
