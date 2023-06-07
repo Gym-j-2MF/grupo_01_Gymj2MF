@@ -11,25 +11,34 @@
     <header>
         <div class="izquierda-header"><img src="./views/static/img/logo2023.png" alt="logo-gimnasio" style="max-width: 80px;"></div>
         <div class="derecha-header">
-
-            <a class="btn" href="">Home</a>                                      
-            <a class="btn" href="nutricion.html" id="nutricion">Nutricion</a>
-            <a class="btn" href="horarios.html" id="horarios">Horarios</a>
-            <a class="btn" href="actividades.html" id="actividades">Actividades</a>
-            <a class="btn" href="tienda.html" id="compras2">tienda</a>
-            <a class="btn" href="contacto.html" id="contacto">Contacto</a>
+            <a  href="">Home</a>
+                       
+                           
+                        
+            <a  href="nutricion.html" id="nutricion">Nutricion</a>
+     
+        
+            <a  href="horarios.html" id="horarios">Horarios</a>
+       
+            <a  href="actividades.html" id="actividades">Actividades</a>
+     
+   
+       
+        
+            <a  href="tienda.html" id="compras2">tienda</a>
+            <a  href="contacto.html" id="contacto">Contacto</a>
      
         </div>
     </header>
-    
     <div class="bienvenida">
+        <span id='cont'></span>
+        <button id="textoLeer" onclick="leer('prueba2')"></button>
         <div class="texto">
             <h1>Bienvenido/a</h1>
             <p>Aca va a haber texto fulero para decorar la pagina y alardear</p>
         </div>
         <div class="imagen-bienvenida"><img src="https://static.vecteezy.com/system/resources/previews/002/607/268/non_2x/people-exercising-at-gym-vector.jpg" alt="gente-gym" width="100%" height="100%"></div>
-        </div>
-
+    </div>
     <div class="actividades">
         <div class="imagen-actividades"><img src="https://static.vecteezy.com/system/resources/previews/002/608/645/non_2x/people-doing-fitness-workout-vector.jpg" alt="actividades-varias" width="100%" height="100%"></div>
         <div class="texto-actividades">
@@ -37,12 +46,13 @@
             <p>Aca va el texto que hable de actividades</p>
         </div>
     </div>
-
     <div class="tienda">
+        
+       
         <div class="texto-tienda " style="width: 80%; overflow-x: hidden;">
             <h2><a href="tienda.html">Tienda</a></h2>
              <!--<p>Aca va el texto que hable de la tienda</p> --> 
-            <p>Nuestros Productos</p>
+         <p>Nuestros Productos</p>
             <table class="table t1" >
                
                     <tr>
@@ -54,21 +64,18 @@
 
                     <br>
                     <br/>
-
                     <tr ALIGN="center">
                         <td>01</td>
                         <td>Guantes</td>
                         <td>$1700</td>
                         <td><img loading="lazy" src="./views/static/img/guantes.jpg" alt="Elemento de Descarga" width="40px" height="40px"></td>
                     </tr>
-
                     <tr ALIGN="center">
                         <td>02</td>
                         <td>Remera</td>
                         <td>$3000</td>
                         <td><img loading="lazy" src="./views/static/img/remera.jpg" alt="Elemento de Descarga" width="40px" height="40px"></td>
                     </tr>
-
                     <tr ALIGN="center">
                         <td>03</td>
                         <td>Campera</td>
@@ -96,7 +103,7 @@
                 <br/>
               
             </table>
-            <a href="tienda.html"">
+            <a href="tienda.html">
                 <button class="boton-tienda">Ir a la Tienda</button>
               </a>
         </div>
@@ -123,3 +130,37 @@
     </footer>
 </body>
 </html>
+<script>
+  
+   const leer = ()=>{
+        const u = new SpeechSynthesisUtterance();
+        u.text =  'Bienvenido al gimnasio j2mf';
+        speechSynthesis.speak(u);  
+      } 
+      
+      //leer("prueba");
+      //$("#textoLeer").click()
+      
+  
+         // Simulate click function
+      function clickButton() {
+          document.querySelector('#textoLeer').click();
+      }
+
+      // Simulate a click every second
+   //setInterval(clickButton, 1000);
+   var cont = 0;
+   var rango = document.getElementById('cont');
+   
+       var id = setInterval(function(){
+        document.querySelector('#textoLeer').click();
+          // rango.innerHTML = cont;
+           cont++;
+           if(cont == 1) 
+           {
+               clearInterval(id);
+               document.querySelector('#textoLeer').onblur();
+           }
+       }, 1000); 
+
+</script>
